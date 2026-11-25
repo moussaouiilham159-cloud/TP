@@ -60,3 +60,44 @@ var_dump(calculerRemise(200, 10));
 // Tester calculerFacture
 echo "Montant final de la facture : ";
 var_dump(calculerFacture(200, 10, 20));
+echo PHP_EOL . "========== ETAPE 4 ==========" . PHP_EOL;
+
+// Calculer la moyenne de plusieurs notes
+echo "Moyenne : " . moyenne(12, 15, 18) . PHP_EOL;
+
+// Calculer l'aire d'un cercle
+echo "Aire cercle : " . aireCercle(5) . PHP_EOL;
+
+// Calculer le périmètre d'un cercle
+echo "Perimetre cercle : " . perimetreCercle(5) . PHP_EOL;
+
+// Convertir Celsius en Fahrenheit
+echo "Celsius vers Fahrenheit : " . celsiusVersFahrenheit(25) . PHP_EOL;
+
+// Convertir Fahrenheit en Celsius
+echo "Fahrenheit vers Celsius : " . fahrenheitVersCelsius(77) . PHP_EOL;
+
+// Convertir une devise
+echo "Conversion devise : " . convertirDevise(100, 0.092) . PHP_EOL;
+
+
+// ======================================
+// ETAPE 5 : Fonctions à boucle
+// ======================================
+
+echo PHP_EOL . "========== ETAPE 5 ==========" . PHP_EOL;
+
+// Calculer la factorielle d'un nombre
+echo "Factorielle : " . factorielle(5) . PHP_EOL;
+
+// Générer les termes de Fibonacci
+echo "Fibonacci : " . implode(", ", fibonacci(8)) . PHP_EOL;
+
+// Calculer le PGCD de deux nombres
+echo "PGCD : " . pgcd(48, 18) . PHP_EOL;
+
+// Calculer la puissance avec une boucle
+echo "Puissance boucle : " . puissance(2, 3) . PHP_EOL;
+
+// Calculer la puissance avec la récursivité
+echo "Puissance recursive : " . puissanceRecursive(2, 3) . PHP_EOL;
